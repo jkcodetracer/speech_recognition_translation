@@ -13,8 +13,8 @@ import glob
 import pandas as pd
 from six.moves import cPickle
 
-train_file = "data/train.csv"
-_data_path = "data/"
+train_file = "data/asr/train.csv"
+_data_path = "data/asr/"
 
 # index to byte mapping
 index2byte = ['<EMP>', ' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g',
